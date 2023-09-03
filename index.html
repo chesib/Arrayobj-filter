@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>foreach</title>
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<script
+			src="https://kit.fontawesome.com/2e05eb9467.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div class="tareas">
+			<h1>task managment</h1>
+			<hr />
+			<div class="form-container">
+				<input
+					class="input-field"
+					id="taskIn"
+					type="text"
+					placeholder="Ingresa algo..."
+				/>
+				<button id="btnSend" class="submit-button">Enviar</button>
+			</div>
+			<hr />
+			<div class="grid-main">
+				<div class="total-tasks" id="">
+					<h1>
+						total tasks
+						<h1 id="taskCount"></h1>
+						<h2 id="taskChecked"></h2>
+					</h1>
+				</div>
+				<div class="tasks" id="taskContainer"></div>
+			</div>
+		</div>
+		<script src="./assets/js/script.js"></script>
+	</body>
+</html>
